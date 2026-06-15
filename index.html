@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>my little corner of the web</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts: a handwritten display + a readable body -->
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════
+       PAGE WRAPPER — everything lives inside
+  ═══════════════════════════════════════ -->
+  <div class="page-wrapper">
+
+    <!-- ── TOP ROW: header + logo ── -->
+    <header class="site-header">
+      <div class="welcome-banner">
+        <h1>Welcome!</h1>
+      </div>
+      <div class="logo-circle">
+        <span>LOGO</span>
+      </div>
+    </header>
+
+    <!-- ── NAV BAR ── -->
+    <nav class="main-nav">
+      <a href="posts.html" class="nav-link">Posts</a>
+      <a href="projects.html" class="nav-link">Projects</a>
+      <a href="about.html" class="nav-link">About me</a>
+    </nav>
+
+    <!-- ── MAIN AREA: content columns + sidebar ── -->
+    <div class="main-area">
+
+      <!-- Left + Centre: content columns -->
+      <div class="content-columns">
+
+        <!-- "latest updates!" label -->
+        <p class="updates-label">✦ latest updates!</p>
+
+        <!-- Blog column -->
+        <section class="column" id="blog-column">
+          <div class="column-tab">blog</div>
+          <div class="column-body">
+            <!-- paste your blog post previews here later -->
+            <div class="post-preview">
+              <h3>first post title</h3>
+              <p class="post-date">june 2026</p>
+              <p>A short teaser of what this post is about goes here. Keep it one or two sentences.</p>
+              <a href="#">read more →</a>
+            </div>
+            <div class="post-preview">
+              <h3>another entry</h3>
+              <p class="post-date">may 2026</p>
+              <p>Something I made, learned, or noticed. This is the kind of thing this blog is for.</p>
+              <a href="#">read more →</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Projects column -->
+        <section class="column" id="projects-column">
+          <div class="column-tab">projects</div>
+          <div class="column-body">
+            <!-- paste your project cards here later -->
+            <div class="project-card">
+              <h3>project name</h3>
+              <p>A short description of what it is and what tools or skills it involved.</p>
+              <a href="#">view →</a>
+            </div>
+            <div class="project-card">
+              <h3>another project</h3>
+              <p>Interior concept / design exercise / anything you want to show.</p>
+              <a href="#">view →</a>
+            </div>
+          </div>
+        </section>
+
+      </div><!-- /content-columns -->
+
+      <!-- Right sidebar: blinkies + socials -->
+      <aside class="sidebar">
+
+        <div class="sidebar-section blinkies-section">
+          <p class="sidebar-label">✦ blinkies</p>
+          <!-- Drop 88x31 blinkie images here. Example: -->
+          <img src="blinkie1.gif" alt="a blinkie" class="blinkie" />
+          <img src="blinkie2.gif" alt="a blinkie" class="blinkie" />
+          <img src="blinkie3.gif" alt="a blinkie" class="blinkie" />
+        </div>
+
+        <div class="sidebar-section socials-section">
+          <p class="sidebar-label">✦ socials</p>
+          <ul class="socials-list">
+            <li><a href="#">instagram</a></li>
+            <li><a href="#">are.na</a></li>
+            <li><a href="#">github</a></li>
+          </ul>
+        </div>
+
+      </aside>
+
+    </div><!-- /main-area -->
+
+  </div><!-- /page-wrapper -->
+
+</body>
+</html>
